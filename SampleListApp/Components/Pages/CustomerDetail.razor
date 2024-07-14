@@ -1,0 +1,17 @@
+@page "/customerdetail/{CustomerId}"
+
+@rendermode InteractiveServer
+
+<PageTitle>Customer Detail</PageTitle>
+
+<h1>@Customer.FirstName @Customer.LastName</h1>
+
+<br />
+<p><b>Phone Number</b></p>
+<p>@Customer.PhoneNumber</p>
+<br />
+<p><b>Credit Score</b></p>
+<p>@Customer.CreditScore</p>
+<br />
+<br />
+<a href="@($"customeroverview/{ReturnId}")" class="btn btn-primary">Back</a>

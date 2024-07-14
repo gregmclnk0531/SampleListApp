@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4o6ExgL+BTc67ETxHx1+em4B9/hd9ksVTbkntn/g7Tg+3y2DoLsJ10Ow7nPnRxDAfmgoEdGV+209Hj1c4C37tw==",
+  "success": true,
+  "projectFilePath": "/home/gregmcmanus/Code/SampleListApp/SampleListApp/SampleListApp.csproj",
+  "expectedPackageFiles": [
+    "/home/gregmcmanus/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
