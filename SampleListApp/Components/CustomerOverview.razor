@@ -2,6 +2,7 @@
 @page "/customeroverview/{ReturnId}"
 
 @inject IJSRuntime JS
+@rendermode InteractiveServer
 
 <script src="js/interop.js"></script>
 
@@ -39,8 +40,4 @@ else
         </tbody>
     </table>
 
-    @if (ReturnId != null)
-    {
-        <body onload="ScrollToElement" />
-    }
 }

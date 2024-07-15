@@ -30,3 +30,4 @@
 /home/gregmcmanus/Code/SampleListApp/SampleListApp/bin/Debug/net8.0/Newtonsoft.Json.dll
 /home/gregmcmanus/Code/SampleListApp/SampleListApp/obj/Debug/net8.0/SampleListApp.csproj.AssemblyReference.cache
 /home/gregmcmanus/Code/SampleListApp/SampleListApp/obj/Debug/net8.0/SampleListApp.csproj.CopyComplete
+/home/gregmcmanus/Code/SampleListApp/SampleListApp/obj/Debug/net8.0/SampleListApp.sourcelink.json

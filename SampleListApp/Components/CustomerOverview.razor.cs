@@ -17,8 +17,12 @@ public partial class CustomerOverview
 
     }
 
-    private async Task ScrollToElement()
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        await JS.InvokeVoidAsync("scrollToElementById", ReturnId);
+        if (firstRender && ReturnId != null)
+        {
+            await JS.InvokeVoidAsync("scrollElementIntoView", ReturnId);
+        }
     }
+
 }
